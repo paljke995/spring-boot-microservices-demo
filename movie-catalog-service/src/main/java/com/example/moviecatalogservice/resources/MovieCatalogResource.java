@@ -26,9 +26,6 @@ public class MovieCatalogResource {
     private RestTemplate restTemplate;
 
     @Autowired
-    private DiscoveryClient discoveryClient;
-
-    @Autowired
     private WebClient.Builder webClienBuilder;
 
     @RequestMapping("/{userId}")
